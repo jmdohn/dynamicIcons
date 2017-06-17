@@ -1,0 +1,83 @@
+/* Makes the image span 50%, centers image and aligns right */
+.THIS #img{
+    background-size: cover;
+    background-position: center center;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 50%;
+    position: fixed;
+}
+
+/* This adds padding, width and height to the content divs */
+.THIS .mainContent{
+    padding-top: 50%;
+}
+.THIS .mainContentContainer{
+    width: 50%;
+    text-align: center;
+    height: 70vh;
+}
+
+/* This is the bounce in left animation */
+.THIS .bounceInLeft{
+    animation: bounceInLeft 1s;
+}
+@keyframes bounceInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-2000px);
+    }
+    60% {
+        opacity: 1;
+        transform: translateX(30px);
+    }
+    80% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* This is the bounce up animation */
+.THIS .bounceInUp{
+    animation: bounceInUp 1s;
+}
+@keyframes bounceInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(2000px);
+    }
+    60% {
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+    80% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+} 
+
+/* This is the bounce down animation */
+.THIS .bounceInDown{
+    animation: bounceInDown 1s;
+}
+@keyframes bounceInDown {
+   0% {
+      opacity: 0;
+      transform: translateY(-2000px);
+   }
+   60% {
+      opacity: 1;
+      transform: translateY(30px);
+   }
+   80% {
+      transform: translateY(-10px);
+   }
+   100% {
+      transform: translateY(0);
+   }
+}
