@@ -6,4 +6,4 @@ Dynamic icons stores the definitions contained on the [Lightninging Design Syste
 
 The SVG component allows for you to render any svgs dynamically by supplying a json formatted string.
 
-To view the sample dynamic icons in action, install the package and go to https://<your-instance-name-here>.lightning.force.com/c/svgMockApp.app.
+To view the sample dynamic icons in action, install the package and go to https://[your-instance-name-here].lightning.force.com/c/svgMockApp.app.
